@@ -1,0 +1,6 @@
+{
+    "i18n-ally.localesPaths": [
+        "common/js/lang",
+        "uni_modules/uni-calendar/components/uni-calendar/i18n"
+    ]
+}

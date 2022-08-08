@@ -1,0 +1,97 @@
+{
+	"subPackages": [
+		{
+			"root": "myPackageA", 
+			"pages": [
+				{"path": "subscribe/subscribe_detail" },//认购详情
+				{"path": "orderDetail" },
+				{"path": "moreOwner"}//订单详情 
+			] 
+		}
+	],
+	"pages": [
+		// tabBar
+		{"path": "pages/index/index",
+		  "style": {
+		  	"enablePullDownRefresh": true
+		  }
+		},
+		{"path": "pages/my/my"},
+		{"path": "pages/promotion/promotion",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{"path": "pages/team/team"},
+		
+		
+		{"path": "pages/index/ipNft"}, //主页添加NFT按钮
+		{ "path" : "pages/index/search/search" }, //搜索页
+		{ "path" : "pages/index/dataAnalysis" }, //数据
+		
+		
+		{"path": "pages/addNft/uploadNft"}, //上传
+		{"path": "pages/addNft/releaseNft"}, //创建Nft 与 创建合集
+		{"path": "pages/addNft/creatSucce"}, //创建成功
+	    // {"path":"pages/addNft/addNft"} 
+		
+        { "path" : "pages/my/collection/collection"}, //我的交易
+		{ "path" : "pages/my/auction"}, //我的拍卖
+		{ "path" : "pages/my/Messagecenter/Messagecenter" }, 
+		{ "path" : "pages/my/Messagecenter/Like-and-like" },
+		{ "path" : "pages/my/Messagecenter/Systemnotification" },
+        { "path" : "pages/my/Mycollection/Mycollection"}, //我创建的合集
+		{ "path" : "pages/my/Transfercollection/Transfercollection"} ,
+		{ "path" : "pages/my/setup/setup" } ,
+		{ "path" : "pages/my/setup/Blockchainquery/Blockchainquery" },
+        { "path" : "pages/my/setup/UpdateUserInfo/UpdateUserInfo"  },
+        { "path" : "pages/my/setup/Selectlanguage/Selectlanguage"  }, 
+		{ "path" : "pages/my/privacyPolicy"  }, //隐私政策 
+		{"path"  : "pages/my/Mywallet/Mywallet"}, //我的钱包
+		{ "path" : "pages/my/Mywallet/transfer"}, //站内转移
+		{ "path" : "pages/my/Mywallet/topUp"}, //充值   
+		{ "path" : "pages/my/Mywallet/withdrawal"}, //提现
+		{ "path" : "pages/my/Mywallet/Rechargedetails"}, //充值详情
+		{ "path" : "pages/my/Mywallet/Selectcollection"}, //选择藏品
+		{"path": "pages/goodsDetail/goodsDetaill"},
+		{"path": "pages/goodsDetail/payAndOffer"},
+		{"path":"pages/goodsDetail/sellout/sellout"},//卖出
+		
+        { "path" : "pages/Collectionpage/Collectionpage" }, //合集详情
+	    { "path" : "pages/login/login"}, //登录  
+		{ "path" : "pages/login/login2"}, //登录 
+		{ "path" : "pages/login/sendCode"},//发送验证码
+		{ "path" : "pages/login/email"},//邮箱登录
+		{ "path" : "pages/login/setPassWord"}//设置支付密码
+    ],
+	"tabBar": {
+		"selectedColor": "#79D5AD",
+		"color": "#999999",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "white",
+		"height": "0px",
+		"list": [{
+				"pagePath": "pages/index/index"
+			}, {
+				"pagePath": "pages/team/team"
+			}, {
+				"pagePath": "pages/promotion/promotion"
+			},
+			{
+				"pagePath": "pages/my/my"
+			}
+		]
+	},
+
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "AniMeta",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	}
+}

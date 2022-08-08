@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/promotion/promotion",
+    "pages/team/team",
+    "pages/index/ipNft",
+    "pages/index/search/search",
+    "pages/addNft/uploadNft",
+    "pages/addNft/releaseNft",
+    "pages/addNft/creatSucce",
+    "pages/my/collection/collection",
+    "pages/my/Messagecenter/Messagecenter",
+    "pages/my/Messagecenter/Like-and-like",
+    "pages/my/Messagecenter/Systemnotification",
+    "pages/my/Mycollection/Mycollection",
+    "pages/my/Transfercollection/Transfercollection",
+    "pages/my/setup/setup",
+    "pages/my/setup/Blockchainquery/Blockchainquery",
+    "pages/my/setup/UpdateUserInfo/UpdateUserInfo",
+    "pages/my/setup/Selectlanguage/Selectlanguage",
+    "pages/goodsDetail/goodsDetaill",
+    "pages/goodsDetail/payAndOffer",
+    "pages/Collectionpage/Collectionpage",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "AniMeta",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "selectedColor": "#79D5AD",
+    "color": "#999999",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "height": "0px",
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/team/team"
+      },
+      {
+        "pagePath": "pages/promotion/promotion"
+      },
+      {
+        "pagePath": "pages/my/my"
+      }
+    ]
+  },
+  "usingComponents": {
+    "head": "/componentes/head",
+    "tab-bar": "/componentes/tabBar",
+    "p-t28": "/componentes/PT28px",
+    "bdialog": "/componentes/dialog/action_sheet"
+  }
+}
